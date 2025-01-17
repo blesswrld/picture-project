@@ -1,0 +1,153 @@
+{
+    "posts": [{
+            "id": "984e",
+            "upload": {},
+            "name": "Тамерлан",
+            "phone": "+7 (965) 951 57 11",
+            "email": "",
+            "message": ""
+        },
+        {
+            "id": "2d09",
+            "upload": {},
+            "name": "Тамерлан",
+            "phone": "+7 (965) 951 57 11",
+            "email": "",
+            "message": ""
+        },
+        {
+            "id": "602d",
+            "upload": {},
+            "name": "Тамерлан",
+            "phone": "+7 (965) 951 57 11",
+            "email": "",
+            "message": ""
+        },
+        {
+            "id": "9a45",
+            "upload": {}
+        },
+        {
+            "id": "c3da",
+            "upload": {}
+        },
+        {
+            "id": "f3f5",
+            "upload": {}
+        },
+        {
+            "id": "729c",
+            "upload": {},
+            "name": "Тамерлан",
+            "phone": "+7 (965) 951 57 11",
+            "email": "",
+            "message": ""
+        }
+    ],
+    "users": [{
+            "id": "0b70",
+            "name": "Тамерлан",
+            "phone": "+7 (965) 951 57 11"
+        },
+        {
+            "id": "e295",
+            "name": "Тамерлан",
+            "phone": "+7 (965) 951 57 11",
+            "email": "",
+            "message": "щщщ"
+        }
+    ],
+    "files": [],
+    "styles": [{
+            "src": "assets/img/styles-5.jpg",
+            "title": "Пастелью",
+            "link": "#pastel",
+            "id": "326c"
+        },
+        {
+            "src": "assets/img/styles-6.jpg",
+            "title": "Поп-арт",
+            "link": "#popart",
+            "id": "a9b2"
+        },
+        {
+            "src": "assets/img/styles-7.png",
+            "title": "Фотомозаика",
+            "link": "#mozaika",
+            "id": "ea92"
+        },
+        {
+            "src": "assets/img/styles-8.jpg",
+            "title": "Шарж",
+            "link": "#sharj",
+            "id": "c105"
+        }
+    ],
+    "sizes": [{
+            "id": "#size",
+            "value": 500
+        },
+        {
+            "id": "#size",
+            "value": 1000
+        },
+        {
+            "id": "#size",
+            "value": 1500
+        },
+        {
+            "id": "#size",
+            "value": 2000
+        },
+        {
+            "id": "#size",
+            "value": 2500
+        }
+    ],
+    "materials": [{
+            "id": "#material",
+            "value": 1,
+            "label": "Холст"
+        },
+        {
+            "id": "#material",
+            "value": 1.2,
+            "label": "Льняной холст"
+        },
+        {
+            "id": "#material",
+            "value": 1.5,
+            "label": "Натуральный хлопок"
+        }
+    ],
+    "options": [{
+            "id": "#options",
+            "value": 0,
+            "label": "Дополнительные услуги"
+        },
+        {
+            "id": "#options",
+            "value": 1000,
+            "label": "Покрытие арт-гелем"
+        },
+        {
+            "id": "#options",
+            "value": 2000,
+            "label": "Экспресс-изготовление"
+        },
+        {
+            "id": "#options",
+            "value": 500,
+            "label": "Доставка готовых работ"
+        }
+    ],
+    "promocodes": [{
+        "code": "IWANTPOPART",
+        "discount": 0.7,
+        "id": "bbac"
+    }],
+    "orders": [],
+    "_headers": {
+        "Access-Control-Allow-Origin": "*"
+    }
+}
