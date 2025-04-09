@@ -1,32 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700i&subset=cyrillic');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700i&subset=cyrillic");
 @font-face {
-    font-family: 'Circe Light';
-    src: url('../fonts/Circe-Light.eot');
-    src: url('../fonts/Circe-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Circe-Light.woff') format('woff'), url('../fonts/Circe-Light.ttf') format('truetype');
+    font-family: "Circe Light";
+    src: url("../fonts/Circe-Light.eot");
+    src: url("../fonts/Circe-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Circe-Light.woff") format("woff"),
+        url("../fonts/Circe-Light.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circe Regular';
-    src: url('../fonts/Circe-Regular.eot');
-    src: url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Circe-Regular.woff') format('woff'), url('../fonts/Circe-Regular.ttf') format('truetype');
+    font-family: "Circe Regular";
+    src: url("../fonts/Circe-Regular.eot");
+    src: url("../fonts/Circe-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Circe-Regular.woff") format("woff"),
+        url("../fonts/Circe-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circe Bold';
-    src: url('../fonts/Circe-Bold.eot');
-    src: url('../fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Circe-Bold.woff') format('woff'), url('../fonts/Circe-Bold.ttf') format('truetype');
+    font-family: "Circe Bold";
+    src: url("../fonts/Circe-Bold.eot");
+    src: url("../fonts/Circe-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Circe-Bold.woff") format("woff"),
+        url("../fonts/Circe-Bold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circe Extra Bold';
-    src: url('../fonts/Circe-ExtraBold.eot');
-    src: url('../fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Circe-ExtraBold.woff') format('woff'), url('../fonts/Circe-ExtraBold.ttf') format('truetype');
+    font-family: "Circe Extra Bold";
+    src: url("../fonts/Circe-ExtraBold.eot");
+    src: url("../fonts/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Circe-ExtraBold.woff") format("woff"),
+        url("../fonts/Circe-ExtraBold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -41,7 +49,7 @@ html {
 }
 
 body {
-    font-family: 'Circe Regular', sans-serif;
+    font-family: "Circe Regular", sans-serif;
 }
 
 p {
@@ -69,7 +77,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
 }
 
 .p15 {
@@ -84,7 +92,7 @@ h4 {
     border-radius: 50px;
     display: block;
     margin: 0 auto;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .button-transparent {
@@ -96,7 +104,7 @@ h4 {
 }
 
 .button-transparent:before {
-    content: '';
+    content: "";
     background: url("../img/camera.svg") no-repeat center;
     width: 1.6rem;
     height: 1.6rem;
@@ -137,7 +145,7 @@ h4 {
     padding: 2rem 1.5rem;
     color: #ffffff;
     cursor: auto;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -159,7 +167,7 @@ h4 {
     display: none;
 }
 
-.header-menu>li:hover .header-menu-sub {
+.header-menu > li:hover .header-menu-sub {
     display: block;
 }
 
@@ -187,7 +195,7 @@ h4 {
 }
 
 .header-menu li a:after {
-    content: '';
+    content: "";
     background-image: url("../img/down-arrow.svg");
     margin-left: 0.7rem;
     width: 1.2rem;
@@ -258,23 +266,22 @@ h4 {
     /* example */
     height: 4em;
     /* example */
-    line-height: 2em/* the same as height */
-    ;
+    line-height: 2em /* the same as height */;
 }
 
-.main .file_upload>button {
+.main .file_upload > button {
     float: right;
     width: 8em;
     /* example */
     height: 100%;
 }
 
-.main .file_upload>div {
+.main .file_upload > div {
     padding-left: 1em;
     /* example */
 }
 
-.main .file_upload input[type=file] {
+.main .file_upload input[type="file"] {
     position: absolute;
     left: 0;
     top: 0;
@@ -289,7 +296,7 @@ h4 {
     cursor: pointer;
 }
 
-.main .file_upload>button {
+.main .file_upload > button {
     transition: background 0.2s;
     border-radius: 50px;
     overflow: hidden;
@@ -302,8 +309,8 @@ h4 {
     padding: 1.5rem;
 }
 
-.main .file_upload>button:before {
-    content: '';
+.main .file_upload > button:before {
+    content: "";
     background: url("../img/camera.svg") no-repeat center;
     width: 1.6rem;
     height: 1.6rem;
@@ -316,14 +323,14 @@ h4 {
 
 .main .logo {
     font-size: 2.5rem;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
     color: #c51abb;
     text-transform: uppercase;
 }
 
 .main .logo-p {
     font-size: 1.5rem;
-    font-family: 'Circe Light', sans-serif;
+    font-family: "Circe Light", sans-serif;
     max-width: 20rem;
 }
 
@@ -342,11 +349,11 @@ h4 {
     text-align: right;
     margin: 0;
     margin-top: 1.5rem;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .main .phone:before {
-    content: '';
+    content: "";
     background: url("../img/24-hours.svg") no-repeat center;
     width: 2.4rem;
     height: 2.4rem;
@@ -371,7 +378,7 @@ h4 {
 }
 
 .main .p-heading-italic {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 2rem;
     text-align: center;
     margin-top: 9rem;
@@ -386,7 +393,7 @@ h4 {
     margin-left: 3rem;
     position: relative;
     font-size: 1.5rem;
-    font-family: 'Circe Light', sans-serif;
+    font-family: "Circe Light", sans-serif;
 }
 
 .main-features img {
@@ -402,7 +409,7 @@ h4 {
     color: #c51abb;
     font-size: 1.5rem;
     margin: 7rem 0 3rem 0;
-    font-family: 'Circe Regular', sans-serif;
+    font-family: "Circe Regular", sans-serif;
 }
 
 .main .button-order {
@@ -596,7 +603,7 @@ h4 {
 
 .calc select {
     opacity: 0.6;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
     margin-left: 4rem;
     appearance: none;
     border: none;
@@ -607,7 +614,7 @@ h4 {
 
 .calc .promocode {
     opacity: 0.6;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
     margin-left: 4rem;
     appearance: none;
     border: none;
@@ -648,23 +655,21 @@ h4 {
     /* example */
     height: 4em;
     /* example */
-    line-height: 2em/* the same as height */
-    ;
+    line-height: 2em /* the same as height */;
 }
 
-.calc .file_upload>button {
+.calc .file_upload > button {
     float: right;
     width: 8em;
     /* example */
     height: 100%;
 }
 
-.calc .file_upload>div {
-    padding-left: 1em/* example */
-    ;
+.calc .file_upload > div {
+    padding-left: 1em /* example */;
 }
 
-.calc .file_upload input[type=file] {
+.calc .file_upload input[type="file"] {
     position: absolute;
     left: 0;
     top: 0;
@@ -679,7 +684,7 @@ h4 {
     cursor: pointer;
 }
 
-.calc .file_upload>button {
+.calc .file_upload > button {
     transition: background 0.2s;
     border-radius: 50px;
     overflow: hidden;
@@ -692,8 +697,8 @@ h4 {
     padding: 1.5rem;
 }
 
-.calc .file_upload>button:before {
-    content: '';
+.calc .file_upload > button:before {
+    content: "";
     background: url("../img/camera.svg") no-repeat center;
     width: 1.6rem;
     height: 1.6rem;
@@ -763,7 +768,7 @@ h4 {
 }
 
 .gift {
-    background: url('../img/gift-bg.jpg') no-repeat;
+    background: url("../img/gift-bg.jpg") no-repeat;
     background-size: cover;
     background-position-x: 60%;
 }
@@ -841,7 +846,7 @@ h4 {
 
 .sizes {
     padding: 9rem 0 20rem 0;
-    background: url('../img/sizes-bg.jpg') no-repeat center;
+    background: url("../img/sizes-bg.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -881,7 +886,7 @@ h4 {
     top: 3rem;
     font-size: 2.4rem;
     color: #86b7d2;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .sizes-block .starting-price {
@@ -892,7 +897,7 @@ h4 {
 .sizes-block .final-price {
     bottom: 4rem;
     font-size: 1.8rem;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
     color: black;
 }
 
@@ -906,7 +911,7 @@ h4 {
     padding: 1.5rem 2rem;
     left: 6rem;
     bottom: -2.5rem;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .scheme {
@@ -1004,7 +1009,7 @@ h4 {
 }
 
 .feedback-block .button-order:before {
-    content: '';
+    content: "";
     background-image: url("../img/heart.png");
     background-size: 100%;
     width: 2rem;
@@ -1018,7 +1023,7 @@ h4 {
 .feedback-heading {
     margin-top: 4rem;
     font-size: 3rem;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
     text-align: center;
     line-height: 1.1;
 }
@@ -1033,7 +1038,7 @@ h4 {
 }
 
 .feedback-signature span {
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
 }
 
 .feedback .slick-slide img {
@@ -1074,7 +1079,7 @@ h4 {
     border: 0;
 }
 
-.often-questions .accordion-heading.active+.accordion-block {
+.often-questions .accordion-heading.active + .accordion-block {
     display: block;
 }
 
@@ -1097,7 +1102,7 @@ h4 {
 }
 
 .often-questions .accordion-block:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1168,7 +1173,7 @@ h4 {
 
 .consultation input::placeholder {
     color: black;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .consultation .input-text {
@@ -1187,7 +1192,7 @@ h4 {
 .footer th {
     padding: 0.5rem;
     padding-bottom: 2.5rem;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
     font-size: 1.6rem;
 }
 
@@ -1200,7 +1205,7 @@ h4 {
 .footer p {
     text-align: right;
     color: #000;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .footer p a {
@@ -1210,7 +1215,7 @@ h4 {
 
 .footer .phone {
     font-size: 2.6rem;
-    font-family: 'Circe Extra Bold', sans-serif;
+    font-family: "Circe Extra Bold", sans-serif;
 }
 
 .footer .phone-whatsapp {
@@ -1263,7 +1268,7 @@ h4 {
 .popup-consultation .form textarea::placeholder {
     color: black;
     text-align: center;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .popup-consultation .button-order {
@@ -1378,23 +1383,22 @@ h4 {
     /* example */
     height: 4em;
     /* example */
-    line-height: 2em/* the same as height */
-    ;
+    line-height: 2em /* the same as height */;
 }
 
-.popup-design .file_upload>button {
+.popup-design .file_upload > button {
     float: right;
     width: 8em;
     /* example */
     height: 100%;
 }
 
-.popup-design .file_upload>div {
+.popup-design .file_upload > div {
     padding-left: 1em;
     /* example */
 }
 
-.popup-design .file_upload input[type=file] {
+.popup-design .file_upload input[type="file"] {
     position: absolute;
     left: 0;
     top: 0;
@@ -1409,7 +1413,7 @@ h4 {
     cursor: pointer;
 }
 
-.popup-design .file_upload>button {
+.popup-design .file_upload > button {
     transition: background 0.2s;
     border-radius: 50px;
     overflow: hidden;
@@ -1422,8 +1426,8 @@ h4 {
     padding: 1.5rem;
 }
 
-.popup-design .file_upload>button:before {
-    content: '';
+.popup-design .file_upload > button:before {
+    content: "";
     background: url("../img/camera.svg") no-repeat center;
     width: 1.6rem;
     height: 1.6rem;
@@ -1456,7 +1460,7 @@ h4 {
 .popup-design .form textarea::placeholder {
     color: black;
     text-align: center;
-    font-family: 'Circe Bold', sans-serif;
+    font-family: "Circe Bold", sans-serif;
 }
 
 .popup-design .button-order {
@@ -1516,22 +1520,22 @@ h4 {
     .paints {
         display: none;
     }
-    .calc .file_upload>div {
+    .calc .file_upload > div {
         display: none;
     }
-    .calc .file_upload>button {
+    .calc .file_upload > button {
         width: 100%;
     }
-    .popup-design .file_upload>div {
+    .popup-design .file_upload > div {
         display: none;
     }
-    .popup-design .file_upload>button {
+    .popup-design .file_upload > button {
         width: 100%;
     }
-    .main .file_upload>div {
+    .main .file_upload > div {
         display: none;
     }
-    .main .file_upload>button {
+    .main .file_upload > button {
         width: 100%;
     }
 }
@@ -1748,6 +1752,9 @@ h4 {
         margin-left: auto;
         margin-right: auto;
     }
+    .main-slider-img {
+        width: 560px;
+    }
     .card-block {
         padding: 5rem;
     }
@@ -1796,6 +1803,14 @@ h4 {
     .card-3 img {
         float: right;
     }
+    .feedback {
+        padding-bottom: 30rem;
+    }
+    .feedback-block-img {
+        width: 430px;
+        display: block;
+        margin: 0 auto;
+    }
     .feedback-slider-item {
         padding-bottom: 0;
     }
@@ -1839,6 +1854,11 @@ h4 {
     .main-slider-btn {
         width: 2rem;
         height: 2rem;
+    }
+    .main-slider-img {
+        display: block;
+        width: 260px;
+        margin: 0 auto;
     }
     .main .logo {
         font-size: 1.5rem;
@@ -1941,7 +1961,12 @@ h4 {
         padding: 5rem 0;
     }
     .feedback {
-        padding: 5rem 0;
+        padding-bottom: 25rem;
+    }
+    .feedback-block-img {
+        width: 260px;
+        display: block;
+        margin: 0 auto;
     }
     .feedback .main-next-btn {
         right: -1rem;
